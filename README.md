@@ -1,25 +1,11 @@
 
-# Yandex SpeechKit  Mobile SDK
+# Notebook sample with Yandex SpeechKit  Mobile SDK
 
-Grab it via Gradle:
-
-```groovy
-compile 'com.yandex.android:speechkit:2.5.0'
-```
-
-Use the following Proguard rules
-
-```xml
--keepclasseswithmembernames,includedescriptorclasses class * {
-    native <methods>;
-}
--keep class ru.yandex.speechkit.** { *; }
-```
 
 ## Yandex SpeechKit Mobile SDK Samples
 These samples demonstrate how to work with
 
-* **Recognizer**, a speech recognition tool.
+* **Recognizer**, a speech recognition tool with Notebook.
 * **RecognizerActivity**, an universal UI component for speech recognition.
 * **PhraseSpotter**, a low-energy recognizer for a predefined set of commands.
 * **Vocalizer**, a tool to translate texts to speech.
